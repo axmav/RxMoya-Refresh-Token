@@ -3,7 +3,7 @@ inspired by http://sapandiwakar.in/refresh-oauth-tokens-using-moya-rxswift/
 Usage:
 
 ```swift
-DateProvider.rx
+DataAPIProvider.rx
             .request(.something)
             .filterSuccessfulStatusCodes()
             .retryWithAuthIfNeeded()
